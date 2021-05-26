@@ -13,5 +13,4 @@ explainer = ClassifierExplainer(model, X_test, y_test,
 
 db = ExplainerDashboard(explainer)
 
-if __name__ == '__app__':
-    db.run()
+db.run()
