@@ -13,4 +13,4 @@ explainer = ClassifierExplainer(model, X_test, y_test,
 
 db = ExplainerDashboard(explainer)
 
-db.run()
+db.run(mode="external")
